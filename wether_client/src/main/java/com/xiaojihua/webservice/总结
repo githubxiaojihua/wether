@@ -1,0 +1,3 @@
+这里的所有类都是通过jdk的wsimport命令生成的，具体格式
+wsimport -s . http://localhost:12345/weather?wsdl
+注意需要cd到src/main/java目录下，因为上面的.代表在当前目录中生成

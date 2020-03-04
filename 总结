@@ -1,0 +1,3 @@
+使用apache cxf框架进行jax-ws风格的webservice开发
+wether_server负责发布服务，在其test中的WetherServerTest类的main方法开启服务，在jetty中运行
+wether_client负责调用服务，在其test中的WeatherClientTest类的main方法调用远程服务。
